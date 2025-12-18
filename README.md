@@ -12,11 +12,11 @@ Task: Each student is required to make a comprehensive plan of a new dataset, in
 
 -Practical Demonstration/Feasibility (5 points)
 
-    Option A (Coding track): run a prototype experiment, test a model, do possible ablation and report results.
+---Option A (Coding track): run a prototype experiment, test a model, do possible ablation and report results.
     
-    Option B (Non-coding track): provide a feasibility analysis, workflow diagram, collection plan, and manual annotation sample for the dataset you are proposing.
+---Option B (Non-coding track): provide a feasibility analysis, workflow diagram, collection plan, and manual annotation sample for the dataset you are proposing.
     
-    Option C: Create a small/mini dataset (what is proposed in point 2)
+---Option C: Create a small/mini dataset (what is proposed in point 2)
 
 # 1. Project Overview
 MVTec-Shift is a novel synthetic dataset designed to benchmark the robustness of unsupervised anomaly detection models against environmental domain shifts.
@@ -87,5 +87,6 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
 
 
