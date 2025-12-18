@@ -5,6 +5,7 @@ This project is for "Assignment# 2: Dataset Creation and Benchmarking" in Introd
 
 Task: Each student is required to make a comprehensive plan of a new dataset, including its title, main description of the dataset, number of classes, images count and a table listing existing datasets with their key information and details of the new dataset, showing how the new dataset is different and unique etc. You can include all possible details. I will explain via example in the class or using a separate video. The evaluation will be done based on these points:
 
+#### [[Report]](https://drive.google.com/file/d/1w7fHMe6SER9b6y6vDmaps3oFbhORqZkY/view?usp=drive_link) 
 
 -Dataset Understanding & Problem Analysis (5 points)
 
@@ -87,6 +88,7 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
 
 
 
