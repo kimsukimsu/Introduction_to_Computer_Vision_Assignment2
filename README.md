@@ -1,5 +1,18 @@
 ﻿## MVTec-Shift: A Synthetic Benchmark for Industrial Anomaly Detection under Environmental Domain Shifts
 
+This project is for "Assignment# 2: Dataset Creation and Benchmarking" in Introduction_to_computer_vision 2025-2
+
+
+Task: Each student is required to make a comprehensive plan of a new dataset, including its title, main description of the dataset, number of classes, images count and a table listing existing datasets with their key information and details of the new dataset, showing how the new dataset is different and unique etc. You can include all possible details. I will explain via example in the class or using a separate video. The evaluation will be done based on these points:
+
+
+-Dataset Understanding & Problem Analysis (5 points)
+-Novel Dataset / Extension Proposal (5 points)
+-Practical Demonstration/Feasibility (5 points)
+    Option A (Coding track): run a prototype experiment, test a model, do possible ablation and report results.
+    Option B (Non-coding track): provide a feasibility analysis, workflow diagram, collection plan, and manual annotation sample for the dataset you are proposing.
+    Option C: Create a small/mini dataset (what is proposed in point 2)
+
 # 1. Project Overview
 MVTec-Shift is a novel synthetic dataset designed to benchmark the robustness of unsupervised anomaly detection models against environmental domain shifts.
 
@@ -69,3 +82,4 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
